@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB4758F5277071E800FBBEBA /* piaxanalysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4758F4277071E800FBBEBA /* piaxanalysApp.swift */; };
+		AB4758F7277071E800FBBEBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4758F6277071E800FBBEBA /* ContentView.swift */; };
+		AB4758F9277071E900FBBEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4758F8277071E900FBBEBA /* Assets.xcassets */; };
+		AB4758FC277071E900FBBEBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4758FB277071E900FBBEBA /* Preview Assets.xcassets */; };
+		AB475906277071E900FBBEBA /* piaxanalysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB475905277071E900FBBEBA /* piaxanalysTests.swift */; };
+		AB475910277071E900FBBEBA /* piaxanalysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB47590F277071E900FBBEBA /* piaxanalysUITests.swift */; };
+		AB475912277071E900FBBEBA /* piaxanalysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB475911277071E900FBBEBA /* piaxanalysUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB475902277071E900FBBEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB4758E9277071E800FBBEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4758F0277071E800FBBEBA;
+			remoteInfo = piaxanalys;
+		};
+		AB47590C277071E900FBBEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB4758E9277071E800FBBEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4758F0277071E800FBBEBA;
+			remoteInfo = piaxanalys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB4758F1277071E800FBBEBA /* piaxanalys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piaxanalys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4758F4277071E800FBBEBA /* piaxanalysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piaxanalysApp.swift; sourceTree = "<group>"; };
+		AB4758F6277071E800FBBEBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB4758F8277071E900FBBEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB4758FB277071E900FBBEBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB475901277071E900FBBEBA /* piaxanalysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piaxanalysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB475905277071E900FBBEBA /* piaxanalysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piaxanalysTests.swift; sourceTree = "<group>"; };
+		AB47590B277071E900FBBEBA /* piaxanalysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piaxanalysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB47590F277071E900FBBEBA /* piaxanalysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piaxanalysUITests.swift; sourceTree = "<group>"; };
+		AB475911277071E900FBBEBA /* piaxanalysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piaxanalysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB4758EE277071E800FBBEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4758FE277071E900FBBEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB475908277071E900FBBEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB4758E8277071E800FBBEBA = {
+			isa = PBXGroup;
+			children = (
+				AB4758F3277071E800FBBEBA /* piaxanalys */,
+				AB475904277071E900FBBEBA /* piaxanalysTests */,
+				AB47590E277071E900FBBEBA /* piaxanalysUITests */,
+				AB4758F2277071E800FBBEBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB4758F2277071E800FBBEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB4758F1277071E800FBBEBA /* piaxanalys.app */,
+				AB475901277071E900FBBEBA /* piaxanalysTests.xctest */,
+				AB47590B277071E900FBBEBA /* piaxanalysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB4758F3277071E800FBBEBA /* piaxanalys */ = {
+			isa = PBXGroup;
+			children = (
+				AB4758F4277071E800FBBEBA /* piaxanalysApp.swift */,
+				AB4758F6277071E800FBBEBA /* ContentView.swift */,
+				AB4758F8277071E900FBBEBA /* Assets.xcassets */,
+				AB4758FA277071E900FBBEBA /* Preview Content */,
+			);
+			path = piaxanalys;
+			sourceTree = "<group>";
+		};
+		AB4758FA277071E900FBBEBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB4758FB277071E900FBBEBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB475904277071E900FBBEBA /* piaxanalysTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB475905277071E900FBBEBA /* piaxanalysTests.swift */,
+			);
+			path = piaxanalysTests;
+			sourceTree = "<group>";
+		};
+		AB47590E277071E900FBBEBA /* piaxanalysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB47590F277071E900FBBEBA /* piaxanalysUITests.swift */,
+				AB475911277071E900FBBEBA /* piaxanalysUITestsLaunchTests.swift */,
+			);
+			path = piaxanalysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB4758F0277071E800FBBEBA /* piaxanalys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB475915277071E900FBBEBA /* Build configuration list for PBXNativeTarget "piaxanalys" */;
+			buildPhases = (
+				AB4758ED277071E800FBBEBA /* Sources */,
+				AB4758EE277071E800FBBEBA /* Frameworks */,
+				AB4758EF277071E800FBBEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piaxanalys;
+			productName = piaxanalys;
+			productReference = AB4758F1277071E800FBBEBA /* piaxanalys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB475900277071E900FBBEBA /* piaxanalysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB475918277071E900FBBEBA /* Build configuration list for PBXNativeTarget "piaxanalysTests" */;
+			buildPhases = (
+				AB4758FD277071E900FBBEBA /* Sources */,
+				AB4758FE277071E900FBBEBA /* Frameworks */,
+				AB4758FF277071E900FBBEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB475903277071E900FBBEBA /* PBXTargetDependency */,
+			);
+			name = piaxanalysTests;
+			productName = piaxanalysTests;
+			productReference = AB475901277071E900FBBEBA /* piaxanalysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB47590A277071E900FBBEBA /* piaxanalysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB47591B277071E900FBBEBA /* Build configuration list for PBXNativeTarget "piaxanalysUITests" */;
+			buildPhases = (
+				AB475907277071E900FBBEBA /* Sources */,
+				AB475908277071E900FBBEBA /* Frameworks */,
+				AB475909277071E900FBBEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB47590D277071E900FBBEBA /* PBXTargetDependency */,
+			);
+			name = piaxanalysUITests;
+			productName = piaxanalysUITests;
+			productReference = AB47590B277071E900FBBEBA /* piaxanalysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB4758E9277071E800FBBEBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AB4758F0277071E800FBBEBA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AB475900277071E900FBBEBA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AB4758F0277071E800FBBEBA;
+					};
+					AB47590A277071E900FBBEBA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AB4758F0277071E800FBBEBA;
+					};
+				};
+			};
+			buildConfigurationList = AB4758EC277071E800FBBEBA /* Build configuration list for PBXProject "piaxanalys" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB4758E8277071E800FBBEBA;
+			productRefGroup = AB4758F2277071E800FBBEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB4758F0277071E800FBBEBA /* piaxanalys */,
+				AB475900277071E900FBBEBA /* piaxanalysTests */,
+				AB47590A277071E900FBBEBA /* piaxanalysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB4758EF277071E800FBBEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4758FC277071E900FBBEBA /* Preview Assets.xcassets in Resources */,
+				AB4758F9277071E900FBBEBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4758FF277071E900FBBEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB475909277071E900FBBEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB4758ED277071E800FBBEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4758F7277071E800FBBEBA /* ContentView.swift in Sources */,
+				AB4758F5277071E800FBBEBA /* piaxanalysApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4758FD277071E900FBBEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB475906277071E900FBBEBA /* piaxanalysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB475907277071E900FBBEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB475912277071E900FBBEBA /* piaxanalysUITestsLaunchTests.swift in Sources */,
+				AB475910277071E900FBBEBA /* piaxanalysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB475903277071E900FBBEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB4758F0277071E800FBBEBA /* piaxanalys */;
+			targetProxy = AB475902277071E900FBBEBA /* PBXContainerItemProxy */;
+		};
+		AB47590D277071E900FBBEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB4758F0277071E800FBBEBA /* piaxanalys */;
+			targetProxy = AB47590C277071E900FBBEBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB475913277071E900FBBEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB475914277071E900FBBEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB475916277071E900FBBEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"piaxanalys/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxanalys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB475917277071E900FBBEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"piaxanalys/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxanalys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB475919277071E900FBBEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxanalysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piaxanalys.app/piaxanalys";
+			};
+			name = Debug;
+		};
+		AB47591A277071E900FBBEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxanalysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piaxanalys.app/piaxanalys";
+			};
+			name = Release;
+		};
+		AB47591C277071E900FBBEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxanalysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = piaxanalys;
+			};
+			name = Debug;
+		};
+		AB47591D277071E900FBBEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxanalysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = piaxanalys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB4758EC277071E800FBBEBA /* Build configuration list for PBXProject "piaxanalys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB475913277071E900FBBEBA /* Debug */,
+				AB475914277071E900FBBEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB475915277071E900FBBEBA /* Build configuration list for PBXNativeTarget "piaxanalys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB475916277071E900FBBEBA /* Debug */,
+				AB475917277071E900FBBEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB475918277071E900FBBEBA /* Build configuration list for PBXNativeTarget "piaxanalysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB475919277071E900FBBEBA /* Debug */,
+				AB47591A277071E900FBBEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB47591B277071E900FBBEBA /* Build configuration list for PBXNativeTarget "piaxanalysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB47591C277071E900FBBEBA /* Debug */,
+				AB47591D277071E900FBBEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB4758E9277071E800FBBEBA /* Project object */;
+}
