@@ -18,9 +18,37 @@ class piaxanalysTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func testAnnat()
+    {
+        
+    }
+    
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        var someone = Person()
+        
+        XCTAssert(someone.getFullname() == "Namn saknas!")
+
+        someone.firstname = " "
+        XCTAssert(someone.getFullname() == "Felaktigt namn!")
+
+        someone.firstname = "Torsten"
+        someone.lastname = " "
+        XCTAssert(someone.getFullname() == "Felaktigt efternamn!")
+
+        
+        someone.firstname = "Torsten"
+        someone.lastname = "Brynolfsson"
+                
+        XCTAssert(someone.getFullname() == "Torsten Brynolfsson")
+
+        var someone2 = Person()
+        someone2.firstname = "Torsten"
+                
+        XCTAssert(someone2.getFullname() == "Torsten")
+
     }
 
     func testPerformanceExample() throws {

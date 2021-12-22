@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1A8E432773182A0024027B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A8E42277318290024027B /* Person.swift */; };
+		AB1A8E4527731EF40024027B /* provaOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A8E4427731EF40024027B /* provaOrder.swift */; };
 		AB4758F5277071E800FBBEBA /* piaxanalysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4758F4277071E800FBBEBA /* piaxanalysApp.swift */; };
 		AB4758F7277071E800FBBEBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4758F6277071E800FBBEBA /* ContentView.swift */; };
 		AB4758F9277071E900FBBEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4758F8277071E900FBBEBA /* Assets.xcassets */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB1A8E42277318290024027B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AB1A8E4427731EF40024027B /* provaOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = provaOrder.swift; sourceTree = "<group>"; };
+		AB1A8E46277332010024027B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AB4758F1277071E800FBBEBA /* piaxanalys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piaxanalys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4758F4277071E800FBBEBA /* piaxanalysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piaxanalysApp.swift; sourceTree = "<group>"; };
 		AB4758F6277071E800FBBEBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +110,8 @@
 				AB47591E2770744900FBBEBA /* GoogleService-Info.plist */,
 				AB4758F4277071E800FBBEBA /* piaxanalysApp.swift */,
 				AB4758F6277071E800FBBEBA /* ContentView.swift */,
+				AB1A8E42277318290024027B /* Person.swift */,
+				AB1A8E46277332010024027B /* README.md */,
 				AB4759252770849200FBBEBA /* Detailview.swift */,
 				AB4758F8277071E900FBBEBA /* Assets.xcassets */,
 				AB4758FA277071E900FBBEBA /* Preview Content */,
@@ -123,6 +130,7 @@
 		AB475904277071E900FBBEBA /* piaxanalysTests */ = {
 			isa = PBXGroup;
 			children = (
+				AB1A8E4427731EF40024027B /* provaOrder.swift */,
 				AB475905277071E900FBBEBA /* piaxanalysTests.swift */,
 			);
 			path = piaxanalysTests;
@@ -300,6 +308,7 @@
 			files = (
 				AB4758F7277071E800FBBEBA /* ContentView.swift in Sources */,
 				AB4758F5277071E800FBBEBA /* piaxanalysApp.swift in Sources */,
+				AB1A8E432773182A0024027B /* Person.swift in Sources */,
 				AB4759262770849200FBBEBA /* Detailview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB475906277071E900FBBEBA /* piaxanalysTests.swift in Sources */,
+				AB1A8E4527731EF40024027B /* provaOrder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

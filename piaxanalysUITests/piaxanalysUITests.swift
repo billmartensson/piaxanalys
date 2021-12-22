@@ -26,9 +26,28 @@ class piaxanalysUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        
+        app.textFields["Förnamn"].tap()
+        
+        app.keys["B"].tap()
+        app.keys["i"].tap()
+        app.keys["l"].tap()
+        app.keys["l"].tap()
+        
+        app.textFields["Efternamn"].tap()
+        
+        app.keys["A"].tap()
+        app.keys["b"].tap()
+        app.keys["c"].tap()
 
+        app.buttons["Fixa namn"].tap()
+
+        
+        
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        
     }
 
     func testLaunchPerformance() throws {

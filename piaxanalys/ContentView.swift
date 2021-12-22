@@ -9,6 +9,12 @@ import SwiftUI
 import Firebase
 
 struct ContentView: View {
+    
+    @State var fullname = ""
+    @State var fname = ""
+    @State var lname = ""
+
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -18,6 +24,18 @@ struct ContentView: View {
                 NavigationLink(destination: Detailview(), label: {
                     Text("Go detail")
                 })
+                
+                Text(fullname)
+                TextField("Förnamn", text: $fname)
+                TextField("Efternamn", text: $lname)
+                Button(action: {
+                    var enperson = Person()
+                    enperson.firstname = fname
+                    enperson.lastname = lname
+                    fullname = enperson.getFullname()
+                }) {
+                    Text("Fixa namn")
+                }
                 
             }.onAppear(perform: {
                 letstrack()
