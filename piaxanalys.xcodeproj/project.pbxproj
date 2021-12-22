@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB1A8E432773182A0024027B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A8E42277318290024027B /* Person.swift */; };
 		AB1A8E4527731EF40024027B /* provaOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A8E4427731EF40024027B /* provaOrder.swift */; };
+		AB1A8E48277332EF0024027B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB1A8E47277332EF0024027B /* README.md */; };
 		AB4758F5277071E800FBBEBA /* piaxanalysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4758F4277071E800FBBEBA /* piaxanalysApp.swift */; };
 		AB4758F7277071E800FBBEBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4758F6277071E800FBBEBA /* ContentView.swift */; };
 		AB4758F9277071E900FBBEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4758F8277071E900FBBEBA /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		AB1A8E42277318290024027B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		AB1A8E4427731EF40024027B /* provaOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = provaOrder.swift; sourceTree = "<group>"; };
 		AB1A8E46277332010024027B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB1A8E47277332EF0024027B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AB4758F1277071E800FBBEBA /* piaxanalys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piaxanalys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4758F4277071E800FBBEBA /* piaxanalysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piaxanalysApp.swift; sourceTree = "<group>"; };
 		AB4758F6277071E800FBBEBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		AB4758E8277071E800FBBEBA = {
 			isa = PBXGroup;
 			children = (
+				AB1A8E47277332EF0024027B /* README.md */,
 				AB4758F3277071E800FBBEBA /* piaxanalys */,
 				AB475904277071E900FBBEBA /* piaxanalysTests */,
 				AB47590E277071E900FBBEBA /* piaxanalysUITests */,
@@ -259,6 +262,7 @@
 			files = (
 				AB4758FC277071E900FBBEBA /* Preview Assets.xcassets in Resources */,
 				AB4758F9277071E900FBBEBA /* Assets.xcassets in Resources */,
+				AB1A8E48277332EF0024027B /* README.md in Resources */,
 				AB47591F2770744900FBBEBA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
